@@ -13,4 +13,5 @@ while not drone.is_armable:
 print("Ready to arm")
 drone.mode = VehicleMode("GUIDED")
 drone.armed = True
+time.sleep(1)
 
